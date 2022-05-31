@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -40,13 +40,14 @@
     <div class="container">
       <header class="row bg-primary text-white py-3">
         <div class="col text-center">
-          <h1>Generate GeoJSON from cordinates</h1>
+          <h1 class="font-source-sans">Generate GeoJSON from cordinates</h1>
         </div>
       </header>
       <div class="row mt-4">
         <div class="col"><div id="map"></div></div>
         <div class="col">
-          <textarea id="result" class="form-control" rows="16"></textarea>
+          <h5 class="font-source-sans">Result</h5>
+          <textarea id="result" class="form-control" rows="15"></textarea>
         </div>
       </div>
     </div>
