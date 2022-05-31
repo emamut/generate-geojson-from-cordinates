@@ -52,3 +52,8 @@ routing.on('routeselected', function (e) {
 
   document.getElementById('result').value = JSON.stringify(result);
 });
+
+function SelectAll(id) {
+  document.getElementById(id).focus();
+  document.getElementById(id).select();
+}
