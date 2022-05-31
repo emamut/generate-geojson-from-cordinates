@@ -37,23 +37,33 @@
     }
   </style>
   <body>
-    <div class="container">
-      <header class="row bg-primary text-white py-3">
-        <div class="col text-center">
+    <div class="container-fluid">
+      <header class="row justify-content-between bg-primary text-white py-2">
+        <div class="col">
           <h1 class="font-source-sans">Generate GeoJSON from cordinates</h1>
         </div>
       </header>
-      <div class="row mt-4">
-        <div class="col"><div id="map"></div></div>
-        <div class="col">
-          <h5 class="font-source-sans">Result:</h5>
-          <textarea
-            id="result"
-            class="form-control"
-            rows="15"
-            onClick="SelectAll('result');"
-            readonly
-          ></textarea>
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col">
+            <p>
+              This tool uses Leaflet and ES6 to generate a route via OSMR using
+              the coordinates entered below.
+            </p>
+            <textarea name="" id="" rows="10" class="form-control"></textarea>
+            <button class="btn btn-lg btn-success mt-2">Generate</button>
+          </div>
+          <div class="col">
+            <h5 class="font-source-sans">Result:</h5>
+            <textarea
+              id="result"
+              class="form-control mb-1"
+              rows="10"
+              onClick="SelectAll('result');"
+              readonly
+            ></textarea>
+            <div id="map"></div>
+          </div>
         </div>
       </div>
     </div>
