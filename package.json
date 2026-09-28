@@ -1,0 +1,28 @@
+{
+  "name": "generate-geojson-from-cordinates",
+  "version": "2.0",
+  "description": "Generate GeoJSON from coordinates using Leaflet and Leaflet Routing Machine",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --test test/app.test.js",
+    "start": "python3 -m http.server 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emamut/generate-geojson-from-cordinates.git"
+  },
+  "keywords": [
+    "geojson",
+    "leaflet",
+    "routing",
+    "coordinates",
+    "osrm",
+    "gis"
+  ],
+  "author": "Faber Andrés Vergara Holguín <fabervergara@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emamut/generate-geojson-from-cordinates/issues"
+  },
+  "homepage": "https://generate-geojson-from-cordinates.netlify.app/"
+}
