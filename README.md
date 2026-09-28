@@ -33,8 +33,9 @@ A modern, fast, and responsive web tool to generate drivable routes in standard 
 ---
 
 ## 📸 Preview
+<img width="1091" height="651" alt="image" src="https://github.com/user-attachments/assets/877820a8-9f59-4f6e-9377-7cffe7f43e0c" />
 
-![Generate GeoJSON from coordinates screenshot](https://user-images.githubusercontent.com/134828/171433630-a200a9e3-c38b-48a4-af78-064c860e4960.png)
+
 
 ---
 
